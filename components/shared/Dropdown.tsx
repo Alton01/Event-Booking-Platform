@@ -33,7 +33,7 @@ const Dropdown = ({ value, onChangeHandler }: DropdownProps) => {
   const [categories, setCategories] = useState<ICategory[]>([]);
   const [newCategory, setNewCategory] = useState("");
 
-  // This function enables a user to create a new category to the list of categoriesavailable on dropdown.
+  // This function enables a user to create a new category to the list of categories available on dropdown.
   const handleAddCategory = () => {
     createCategory({
       categoryName: newCategory.trim(),
@@ -55,7 +55,7 @@ const Dropdown = ({ value, onChangeHandler }: DropdownProps) => {
   }, []);
 
   return (
-    <Select onValueChange={onChangeHandler}>
+    <Select onValueChange={onChangeHandler} defaultValue={value}>
       <SelectTrigger className="select-field">
         <SelectValue placeholder="Category" />
       </SelectTrigger>
