@@ -13,7 +13,7 @@ const Header = () => {
         <Link href="/" className="w-36">
           <Image
             alt=" Event App Logo"
-            src="/assets/images/logo.svg"
+            src="/assets/images/event.jfif"
             width={128}
             height={38}
           />
