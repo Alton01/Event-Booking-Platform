@@ -36,10 +36,10 @@ const MobileNav = () => {
         <SheetClose>
           <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
             <Image
-              src="/assets/images/logo.svg"
+              src="/assets/images/event-logo-1.png"
               alt="logo"
-              width={128}
-              height={38}
+              width={55}
+              height={15}
             />
             <Separator className="border border-gray-50" />
             <SheetClose>
