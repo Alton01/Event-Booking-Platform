@@ -10,12 +10,12 @@ const Header = () => {
   return (
     <header className="w-full border-b">
       <div className="wrapper flex items-center justify-between">
-        <Link href="/" className="w-28">
+        <Link href="/" className="w-20">
           <Image
             alt=" Event App Logo"
             src="/assets/images/event-logo-1.png"
-            width={100}
-            height={25}
+            width={60}
+            height={15}
           />
         </Link>
         <SignedIn>
