@@ -10,8 +10,8 @@ const Footer = () => {
           <Image
             src="/assets/images/event-logo-1.png"
             alt="logo"
-            width={128}
-            height={38}
+            width={40}
+            height={12}
           />
         </Link>
         <p>2024 Evently. All Rights Reserved</p>
